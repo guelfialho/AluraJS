@@ -37,9 +37,6 @@ var pacientes = document.querySelectorAll(".paciente");
         }
     }
         
-titulo.addEventListener("click", mostraMensagem);
 
-function mostraMensagem(){
-    console.log("Eu fui clicado")
-}
-        
+
+
