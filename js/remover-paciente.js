@@ -12,5 +12,5 @@ pacientes.forEach(function(paciente){
         // var paiDoAlvo = alvoEvento.parentNode;
         // paiDoAlvo.remove();
     })
+});
 
-})
