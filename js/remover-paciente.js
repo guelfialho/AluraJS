@@ -1,2 +1,16 @@
-var pacientes = document.querySelectorAll(".paciente");
-console.log(pacientes)
+var pacientes = document.querySelectorAll("#tabela-pacientes");
+
+pacientes.forEach(function(paciente){
+    paciente.addEventListener("dblclick", function(event){
+        event.target.parentNode.classList.add("fadeOut")
+        
+        setTimeout(function(){
+            event.target.parentNode.remove();
+        }, 600);
+        // 
+        // var alvoEvento = event.target;
+        // var paiDoAlvo = alvoEvento.parentNode;
+        // paiDoAlvo.remove();
+    })
+
+})
